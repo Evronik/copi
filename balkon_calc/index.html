@@ -1,0 +1,1115 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        <title>Остекление балконов. Калькулятор цены</title> 
+        <meta name="description" content="Производство и установка пластиковых окон и дверей в Волгограде и Волгоградской области напрямую с завода. Услуги по остеклению балконов и лоджий, а также утеплению и отделке лоджий под ключ. Индивидуальные решения для загородных домов." />
+        
+<!--        <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" /> -->
+        <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+<!--
+        <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+-->	
+        <link rel="stylesheet" href="/libs/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="/libs/owl-carousel/owl.theme.default.css">
+        <link rel="stylesheet" href="/css/fancySelect.css">
+        <link rel="stylesheet" href="/css/modal.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/fonts.css" />
+	<link rel="stylesheet" href="/css/main.css" />
+	<link rel="stylesheet" href="/css/media.css" />
+
+        <script src="/libs/jquery/jquery-1.11.1.min.js"></script>
+        <script src="/libs/jquery/jquery-ui.min.js"></script>
+        <script src="/libs/owl-carousel/owl.carousel.min.js"></script> 
+        <script src="/libs/countdown/jquery.plugin.js"></script>
+        <script src="/libs/jquery.mb-comingsoon.js"></script>
+        <script src="/libs/jquery/jquery.inputmask.min.js"></script> 
+        <script src="/libs/jquery/jquery.cookie.js"></script> 
+        <script src="/libs/fancySelect.js"></script>
+
+        <script src="/libs/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+
+   <script src="https://api-maps.yandex.ru/2.0/?load=package.full&amp;lang=ru-RU" type="text/javascript"></script>
+
+<script type="text/javascript">
+var __cs = __cs || [];
+__cs.push(["setCsAccount", "rEGnMITgpcWI7PzPmFYr39CTh50vNsgd"]);
+</script>
+<script type="text/javascript" async src="https://app.comagic.ru/static/cs.min.js"></script>
+
+        <script src="/js/common.js"></script>
+  
+  </head>
+  <body><div class="modal-overlay closed"></div>
+<div class="stars closed">
+<form name="form-1">
+    <div class="f_modal callback_form closed" >
+        <div class="close-button" ></div>
+        <h2>Мы вам перезвоним</h2>
+        <div class="razmetka1">
+            <div class="f_input in_name">
+                <input id="call_name" value="" placeholder="Ваше имя" name="name" type="text">
+             </div>
+         </div>
+
+        <div class="razmetka1">
+            <div class="f_input in_tel">
+                <input id="call_tel" class="tel_mask"  value="" placeholder="Номер телефона" name="tell" type="text">
+             </div>
+         </div>
+
+        <div class="sender"></div>
+        <div class="razmetka2">
+            <div class="feedback b_btn" id="send">Отправить</div>
+        </div>
+    </div>
+</form>
+</div>
+
+<div class="procent closed">
+<form name="form-1">
+    <div class="f_modal callback_day closed" >
+        <div class="close-button" ></div>
+        
+        <div class="razmetka1">
+            <div class="f_input in_name">
+                <input id="d_call_name" value="" placeholder="Ваше имя" name="name" type="text">
+             </div>
+         </div>
+
+        <div class="razmetka1">
+            <div class="f_input in_tel">
+                <input id="d_call_tel" class="tel_mask"  value="" placeholder="Номер телефона" name="tell" type="text">
+             </div>
+         </div>
+
+        <div class="sender"></div>
+        <div class="razmetka2">
+            <div class="feedback b_btn" id="send_day">Перезвонить</div>
+        </div>
+    </div>
+</form>
+</div>
+
+
+
+<div class="f_modal f_spasibo closed" id="spasibo" >
+    <h2>Спасибо!</h2>
+        <p>Мы приняли вашу заявку,
+наш менеджер скоро с вами
+свяжется!</p>  
+     <div class="razmetka2">
+        <div class="b_btn" id="s_close">Закрыть</div>
+    </div>
+</div>
+
+
+
+<div class="section s1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 pad-l">
+                <div class="text-center">
+                    
+                        <a href="/"><img src="/img/logo.jpg"></a>
+                        
+                </div>
+            </div>
+            <div class="col-sm-5 text-center pad clearfix">
+                <div class="top_link ll1">
+                    <a href="/okna_calc.html">Калькулятор</a>
+                </div>
+                <div class="top_link ll2">
+                    <a href="/akcii.html">Акции</a>
+                </div>
+               
+            </div>
+            <div class="col-sm-4 pad-r clearfix">
+                <div class="pull-right_full">   
+
+                    <div class="top_right2"><a class="white comagic_phone" href="tel:88442966581">+7 (8442) 96-65-81</a></div>
+                    <div class="top_right3" id="callback1">
+                        <span>Вам перезвонить?</span>
+                    </div>
+                </div>
+            </div>
+			<!-- <div class="col-sm-1"></div> -->
+        </div>
+    </div>
+</div><div class="section top_menu">
+    <div class="container no-padding-str">
+        <div class="row no-margin-str ">
+            <div class="col-md-12 no-padding-str">
+                
+                <div class="div_menu clearfix">
+                    
+                    <div class="s_menu"></div>
+                    <div class="div_close"></div>
+                    
+                    <ul class="ul_menu clearfix">
+                        <li>
+                            <a class="item_nav menu01" href="/">
+                               <span>Пластиковые окна</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item_nav menu02" href="/balkony.html">
+                                <span>Остекление балконов</span>
+                            </a>
+                            <div>
+                                <ul>
+                                    <li><a href="/holodnoe-osteklenie-balkonov.html">Холодное остекление</a></li>
+                                    <li><a href="/teploe-osteklenie-balkonov.html">Теплое остекление</a></li>
+                                    <li><a href="/panoramnoe-osteklenie.html">Панорамное остекление</a></li>
+                                    <li><a href="/vynos-ostekleniya-balkona.html">Вынос остекления</a></li>
+                                    <li><a href="/parapet.html">Парапет под остекление</a></li>
+                                </ul>
+                            </div>                            
+                        </li>
+                        <li>
+                            <a class="item_nav menu03" href="/otdelka.html">
+                                <span>Отделка лоджий</span>
+                            </a>
+                            <div>
+                                <ul>
+                                    <li><a href="/ustanovka-krishy.html">Установка крыши</a></li>
+                                    <li><a href="/uteplenie-balkona.html">Утепление под ключ</a></li>
+                                    <li><a href="/vneshnaya-otdelka.html">Внешняя отделка</a></li>
+                                    <li><a href="/vnutrennaya-otdelka.html">Внутреняя отделка</a></li>
+                                    <li><a href="/obiedinenie-s-lodzhiey.html">Объединение с комнатой</a></li>
+                                    <li><a href="/floor.html">Пол на балкон</a></li>
+                                    <li><a href="/mebel.html">Мебель и аксессуары</a></li>
+                                    <li><a href="/elektrika.html">Электрика</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="item_nav menu04" href="/dacha.html">
+                                <span>Окна для дачи</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item_nav menu05" href="/contacts.html">
+                                <span>Контакты</span>
+                            </a>
+                        </li>         
+                        <li>
+                            <a class="item_nav menu06" href="/okna_calc.html">
+                                <span>Калькулятор</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item_nav menu07" href="/akcii.html">
+                                <span>Акции</span>
+                            </a>
+                        </li>                          
+                        <li>
+                            <a class="item_nav menu08" href="/rassrochka.html">
+                                <span>Рассрочка</span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fake_menu">
+    
+</div>
+
+<div class="section o_calc balkon">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+		<h1>Калькулятор цены балкона</h1>
+            </div>
+        </div>
+	<div class="row">
+            <div class="col-md-12" style="padding-left:0px; padding-right:0px;">
+                <div class="o_sw">
+                        <a href="/okna_calc.html">Окна</a> <img src="/img/b_sw.png"> <span>Балконы</span>
+                </div>
+            </div>
+        </div>
+		
+	<div class="row">
+            <div class="col-md-5 pr63" style="padding-left:0px; padding-right:0px;"><img src="/img/sk63.png"></div>
+            <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
+                    <div class="oc_type_text">Тип балкона:</div>
+                    <div class="oc_type_menu">
+
+                            <div class="b_submenu">
+                                <div class="carousel-b"> 
+                                    <div class="item">
+                                        <div id="b1" class="b_type active"></div>
+                                    </div>  
+                                    <div class="item">
+                                        <div id="b2" class="b_type"></div>
+                                    </div>  
+                                    <div class="item">
+                                        <div id="b3" class="b_type"></div>
+                                    </div>  
+                                    <div class="item">
+                                        <div id="b4" class="b_type"></div>
+                                    </div>  
+                                    <div class="item">
+                                        <div id="b5" class="b_type"></div>
+                                    </div>  
+                                    <div class="item">
+                                        <div id="b6" class="b_type"></div>
+                                    </div>  
+                                    <div class="item">
+                                        <div id="b7" class="b_type"></div>
+                                    </div>  
+                                </div>
+                              
+                                
+                                
+                                
+                            </div>
+                    </div>
+            </div>
+            <div class="col-md-1"></div>
+	</div>	
+        
+        <div class="row">
+            
+            <div class="col-md-5 clearfix"  style="padding-left:0px; padding-right:0px;">
+                
+                <div class="maket">
+                    <img src="/img/calc_balkon/b1.jpg">
+                </div>
+                <div class="vert"> 
+                    <div class="v_bl">
+                        Высота, см
+                        <input id="v_txt" type="text" value="150">
+                    </div>
+                    <div id="v_slider"></div> 
+                </div>
+                <div class="horiz">
+                    <div class="h_bl">
+                        Ширина, см
+                        <input id="h_txt" type="text" value="150">
+                    </div>
+                    <div id="h_slider"></div> 
+                    
+                </div>
+                
+                
+            </div>
+            
+            <div class="col-md-6" style="padding-left:0px; padding-right:0px;">
+                <div class="r_block">
+                    <div class="oc_line">
+                        <span>Подоконник, отлив:</span>
+                        <span class="inp">Нет</span>
+                            <input class="need_otliv" type="checkbox">
+                        <span class="inp" style="padding-right: 0px;">Да</span>
+                    </div>
+                    <div class="oc_line">
+                        <span>Монтажные работы:</span>
+                        <span class="inp">Нет</span>
+                            <input class="need_montazh" type="checkbox">
+                        <span class="inp" style="padding-right: 0px;">Да</span>
+                    </div>
+                    <div class="oc_pr_block clearfix">
+                       <div class="bl_left">
+                           Стоимость по акции:<br>
+                           <span>10500 Р.</span>
+
+                       </div>
+                       <div class="bl_right">
+                           В рассрочку:<br>
+                           <span>1350 РУБ.</span>
+                       </div>
+                   </div>   
+                    <div class="line_b clearfix">
+                        <div class="lb_left">
+                            Средняя цена: <span>13915 Р.</span>
+                        </div>
+                        <div class="lb_right">
+                            Экономия <span>3211 Р.</span>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="b_btn balkon_send">
+                        Заказать со скидкой
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+		
+    </div>
+</div>
+
+<script>
+	var o_calc={
+		selected: 'b1',
+                v: 300,
+                h: 150,
+                need_otliv: 0,
+                need_montazh: 0,
+		
+	};
+	
+	
+var calc_settings = {gluh: 2640,pov: 3840,pov_otk: 4200,otliv: 550,montazh: 0.2,sr:0.35 	
+	};
+    
+	
+function o_calculate (){
+	
+	var itog=(o_calc.v/100)*(o_calc.h/100)*calc_settings.gluh; 	
+		
+
+	if (o_calc.need_otliv==1){
+		itog=itog+calc_settings.otliv;
+	}
+	
+	if (o_calc.need_montazh==1){
+		itog=itog+itog*calc_settings.montazh;
+	}
+	
+	var rassr=itog/12;
+	var sr=itog+itog*calc_settings.sr;
+	var econ=sr-itog;
+	
+	$('.bl_left span').html(itog.toFixed()+' Р.');
+	$('.bl_right span').html(rassr.toFixed()+' Р.');
+	$('.lb_left span').html(sr.toFixed()+' Р.');
+	$('.lb_right span').html(econ.toFixed()+' Р.');
+	
+}
+	
+	
+	
+	
+	
+$(function(){
+	o_calculate();
+	
+	
+    $('.b_type').on('click',function(){
+       o_calc.selected=$(this).attr('id');
+       $('.b_type').removeClass('active');
+       $(this).addClass('active');
+        $('.maket img').attr('src','/img/calc_balkon/'+o_calc.selected+'.jpg');
+       
+       o_calculate();
+    })
+       
+       
+       $( "#v_slider" ).slider({
+      value: 150,
+      orientation: "vertical",
+      max: 300,
+      min: 100,
+      animate: true,
+       slide: function( event, ui ) {
+        $( "#v_txt" ).val( ui.value );
+        o_calc.v= ui.value;
+		o_calculate();
+      }
+    });
+     
+      $( "#v_txt" ).on('keyup',function(){
+          var a=$( "#v_txt" ).val();
+                   
+          if ( parseInt(a) <0 ||  a==''){
+               $( "#v_txt" ).val(0);
+               $( "#v_slider" ).slider( "value", "0" );
+                o_calc.v= 0;
+          }else{
+               if ( parseInt(a) >300){a=300};
+              $( "#v_txt" ).val( parseInt(a));
+              $( "#v_slider" ).slider( "value", parseInt(a) );
+               o_calc.v= parseInt(a);
+              
+          }
+       o_calculate();  
+      })
+     
+       $( "#h_slider" ).slider({
+      value: 150,
+      orientation: "horizontal", 
+      max: 750,
+      min: 100,
+      animate: true,
+       slide: function( event, ui ) {
+        $( "#h_txt" ).val( ui.value );
+        o_calc.h= ui.value;
+		o_calculate();
+      }
+    });
+     
+    $( "#h_txt" ).on('keyup',function(){
+        var a=$( "#h_txt" ).val();
+
+        if ( parseInt(a) <0 ||  a==''){
+             $( "#h_txt" ).val(0);
+             $( "#h_slider" ).slider( "value", "0" );
+              o_calc.v= 0;
+        }else{
+             if ( parseInt(a) >750){a=750};
+            $( "#h_txt" ).val( parseInt(a));
+            $( "#h_slider" ).slider( "value", parseInt(a) );
+             o_calc.h= parseInt(a);
+
+        }
+o_calculate();
+     })
+     
+
+$('.need_otliv').click(function(){
+	if ($(this).is(':checked') ){
+		o_calc.need_otliv=1;
+	}else{
+		o_calc.need_otliv=0;
+	}
+	o_calculate();
+})
+
+
+$('.need_montazh').click(function(){
+	if ($(this).is(':checked') ){
+		o_calc.need_montazh=1;
+	}else{
+		o_calc.need_montazh=0;
+	}
+	o_calculate();
+})
+
+
+	 
+     
+       
+})		
+
+//предзагрузка картинок
+$.preloadImages("/img/calc_o/m1_1.jpg",
+				"/img/calc_o/m1_2.jpg",
+				"/img/calc_o/m1_3.jpg",
+				"/img/calc_o/m1_1a.jpg",
+				"/img/calc_o/m1_2a.jpg",
+				"/img/calc_o/m1_3a.jpg",
+				"/img/calc_o/m2_1.jpg",
+				"/img/calc_o/m2_2.jpg",
+				"/img/calc_o/m2_3.jpg",
+				"/img/calc_o/m2_4.jpg",
+				"/img/calc_o/m2_1a.jpg",
+				"/img/calc_o/m2_2a.jpg",
+				"/img/calc_o/m2_3a.jpg",
+				"/img/calc_o/m2_4a.jpg",
+				"/img/calc_o/m3_1.jpg",
+				"/img/calc_o/m3_2.jpg",
+				"/img/calc_o/m3_3.jpg",
+				"/img/calc_o/m3_1a.jpg",
+				"/img/calc_o/m3_2a.jpg",
+				"/img/calc_o/m3_3a.jpg",
+				"/img/calc_o/m4_1.jpg",
+				"/img/calc_o/m4_2.jpg",
+				"/img/calc_o/m4_1a.jpg",
+				"/img/calc_o/m4_2a.jpg",
+				);
+
+</script>
+<div class="section post">
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+<p style="text-align:justify;color:#666;">Получите предварительный расчёт стоимости остекления балкона всего за несколько секунд! Для этого воспользуйтесь нашим калькулятором остекления балкона. Он подскажет примерную цену изделия с опциями и без. Чтобы получить итоговый расчет, с учетом всех особенностей конструкции, вы можете связаться с менеджером по телефону 8 (8442) 51-75-85. Но предварительно рассчитать стоимость остекления балкона онлайн удобно и быстро! Достаточно внести некоторые данные: размеры и тип балкона, заказ монтажных работ, подоконников, отливов. Также можно провести расчет остекления лоджии онлайн. Просто введите требуемые параметры об остеклении лоджии в калькулятор. Он поможет за несколько секунд рассчитать цену остекления лоджии.</p>
+
+
+
+			
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section rsk">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+		<h1>Расчет со скидкой 63%</h1>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-12 pl">
+            <form name="form-1">    
+                 <div class="razmetka1">
+                    <div class="f_input in_name">
+                        <input id="rks_name"  value="" placeholder="Ваше имя" name="name" type="text">
+                     </div>
+                 </div>
+            
+           
+            
+                 <div class="razmetka1">
+                    <div class="f_input in_tel">
+                        <input id="rks_phone" class="tel_mask" value="" placeholder="Номер телефона" name="tell" type="text">
+                     </div>
+                 </div>                
+            
+                <div class="razmetka1">
+                    <div class="feedback c_btn" id="rks_btn">Узнать цену
+                    </div>
+                
+                </div>
+          </form>
+            </div>    
+        </div>
+    </div>
+</div>
+<div class="section okna_pro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+		<h1>Лучшие окна</h1>
+		<p class="text-center">
+                    Наличие собственного высокотехнологичного производства и полностью автоматизированная линия позволяет изготавливать <b>свыше 2000 м/кв. изделий в день!</b> Благодаря этому, срок поставки конструкций сокращен до 2-3 дней, а стоимость  самая привлекательная на рынке.
+		</p>
+            </div>
+	</div>
+       <div class="row obg">
+           <div class="col-md-5 pad col-sm-6">
+               <div class="op1">
+                   <div class="op1_hh1">Наши окна всегда дешевле!</div>
+                   <div class="op1_hh2">Оконный завод</div>
+                   <div class="v_line4"></div>
+                   <div class="op_block1">От 2100 Руб.</div>
+                   <div class="op_block1 red">2 ДНЯ!</div>
+                   <div class="op_block1">Германия</div>
+                   <div class="op_block1">
+                    <img src="/img/star2.png">
+                    <img src="/img/star2.png">
+                    <img src="/img/star2.png">
+                    <img src="/img/star2.png">
+                    <img src="/img/star2.png">
+                   </div>
+                   <div class="op_block1">15 лет</div>
+                   
+               </div>
+           </div> 
+           <div class="col-md-3 col-sm-6 hidden-xs" style="padding-top: 70px; padding-left: 0px;">
+               <div class="dop_pro">
+                    <div class="op_block_hh">Конкуренты</div>
+                    <div class="v_line3"></div>
+                    <div class="op_block">
+                        Стоимость<br>
+                        <span>От 3700 Руб.</span>
+                    </div>
+                    <div class="op_block">
+                        Изготовление<br>
+                        <span>5 Дней</span>
+                    </div>
+                    <div class="op_block">
+                        Профиль<br>
+                        <span>Германия</span>
+                    </div>
+                    <div class="op_block">
+                        Монтаж<br>
+                        <span>
+                            <img src="/img/star1.png">
+                            <img src="/img/star1.png">
+                            <img src="/img/star1.png">
+                            <img src="/img/star1.png">
+
+                        </span>
+                    </div>
+                    <div class="op_block">
+                        Гарантия<br>
+                        <span>10 лет</span>
+                    </div>
+               </div>
+           </div> 
+            <div class="col-md-3  hidden-sm hidden-xs" style="padding-top: 70px; padding-left: 0px;">
+               <div class="op_block_hh">Частные мастера</div>
+               <div class="v_line3"></div>
+               <div class="op_block">
+                   Стоимость<br>
+                   <span>От 3150 Руб.</span>
+               </div>
+               <div class="op_block">
+                   Изготовление<br>
+                   <span>7 Дней</span>
+               </div>
+               <div class="op_block">
+                   Профиль<br>
+                   <span>Китай</span>
+               </div>
+               <div class="op_block">
+                   Монтаж<br>
+                   <span>
+                       <img src="/img/star1.png">
+                       <img src="/img/star1.png">
+                       <img src="/img/star1.png">
+                   </span>
+               </div>
+               <div class="op_block">
+                   Гарантия<br>
+                   <span>Без гарантии</span>
+               </div>
+           </div>           
+           <div class="col-md-1">
+           </div>              
+       </div>
+    </div>
+</div>
+<div class="section montazh">
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10">
+				<div class="row">
+					<div class="col-md-12">
+				<h1>Оплата после монтажа</h1>
+						 <p class="text-center">
+							Компания "Лучшие окна" работает без предоплаты.<br>
+							Оплата заказа производится только после выполнения всех монтажных работ.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="clearfix">
+							<li>
+								<div class="montazh_block">
+									<img src="/img/mon1.jpg">
+									<p>Изготовление и установка окон</p>
+									
+								</div>
+							</li>	
+							<li>
+								<div class="montazh_block_pr">
+									<img src="/img/mon_str.jpg">
+		
+								</div>
+							</li>
+							<li>
+								<div class="montazh_block">
+									<img src="/img/mon2.jpg">
+									<p>Подписание акта о выполненных работах</p>
+								
+								</div>
+							</li>
+							<li>
+								<div class="montazh_block_pr">
+									<img src="/img/mon_str.jpg">
+									
+								</div>
+							</li>
+							<li>
+								<div class="montazh_block">
+									<img src="/img/mon3.jpg">
+									<p>Оплата по договору картой или наличными</p>
+									
+								</div>
+							</li>							
+						</ul>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="b_btn" id="callback2" href="/balkony.html">Узнать подробнее</div>
+						
+					</div>        
+				</div>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
+        
+    </div>
+</div>
+
+<div class="section t_blocks">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="t_block clearfix">
+                    <img src="/img/2b1.jpg">
+                    <div class="r_block">
+                        <h2>Окна<br>в рассрочку 0%</h2>
+                        <div class="y_line"></div>
+                        <p>Вы можете заказать окна
+                            в рассрочку до 3 лет
+                            и без предоплаты</p>
+                        <a style="text-decoration: none;" href="/rassrochka.html" class="b_btn">Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+		<div class="t_block clearfix">
+                    <img src="/img/2b2.jpg">
+                    <div class="r_block">
+                        <h2>Замер окон бесплатно!</h2>
+                        <div class="y_line"></div>
+                        <p>вы можете вызвать
+                            замерщика в любое
+                            удобное для вас время</p>
+                        <div class="b_btn zamer_btn1">Вызвать</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section dop_opt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+		<h1>С окнами покупают:</h1>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12  clearfix">
+                <div class="carousel-dop"> 
+
+
+
+
+                    <div class="item">
+                        <div class="opt_block">
+                            <a href="/podokonniki-dlya-okon.html"><img src="/img/dop1.jpg"></a>
+                            <div class="dop_sign">
+                                <div class="line1">Подоконники</div>
+                                <div class="line2">Всего: 390</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="item">
+                        <div class="opt_block">
+                            <a href="/otkosy-dlya-okon.html"><img src="/img/dop2.jpg"></a>
+                            <div class="dop_sign">
+                                <div class="line1">Откосы</div>
+                                <div class="line2">Всего: 300</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="item">
+                        <div class="opt_block">
+                            <a href="/otlivy.html"><img src="/img/dop3.jpg"></a>
+                            <div class="dop_sign">
+                                <div class="line1">Отливы</div>
+                                <div class="line2">Всего: 150</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="item">
+                        <div class="opt_block">
+                            <a href="/moskitnye-setki-na-okna.html"><img src="/img/dop4.jpg"></a>
+                            <div class="dop_sign">
+                                <div class="line1">Москитные сетки</div>
+                                <div class="line2">Всего: 525</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="item">
+                        <div class="opt_block">
+                            <a href="/laminacya-okon.html"><img src="/img/dop5.jpg"></a>
+                            <div class="dop_sign">
+                                <div class="line1">Ламинация окон</div>
+                                <div class="line2">Всего: 800</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="item">
+                        <div class="opt_block">
+                            <a href="/raskladka-v-steklopaket.html"><img src="/img/dop6.jpg"></a>
+                            <div class="dop_sign">
+                                <div class="line1">Раскладка</div>
+                                <div class="line2">Всего: 650</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section free_d">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="padding-left: 0; padding-right: 0;">
+		<h1>Бесплатная доставка по Волгограду</h1>
+                <div class="fd_block">
+                    <div class="hh">
+                        <img src="/img/r1.png">
+                        <p>Бережная доставка</p>
+                    </div>
+                    <div class="fd_msg">
+                        Доставим ваши окна<br>
+                        <span class="red">совершенно бесплатно</span><br>
+                        в пределах 30 км<br>
+                        от Волгограда
+                        
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section c_work">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+		<h1>Окна установленные в 2019 году</h1>
+                <div class="carousel-wirk">
+                    
+                    <div class="item">
+                        <div class="w_block clearfix">
+                            <div class="w_block_l">
+                                <div class="w_adr">
+                                    Адрес:<br>
+                                    Г. ВОЛГОГРАД, УЛИЦА МЕНЖИНСКОГО, Д.19
+                                </div>
+                                <div class="w_client">
+                                    Клиент:<br>
+                                    КОРИН СЕРГЕЙ ИВАНОВИЧ
+                                </div>
+                                <p>
+                                    Изготовленно 3 конструкции профильной системы REHAU BLITZ. Для изготовления окон использовалась немецкая фурнитура ROTO. Выполнен монтаж окон «под ключ», включая отделку откосов, установку отливов и подоконников.
+                                </p>
+                            </div>
+                            
+                            <div class="w_block_r">
+                                <img src="/img/w1.jpg">
+                                <div class="w_msg1">
+                                    УСТАНОВКА ОКОН В ДВУХКОМНАТНОЙ КВАРТИРЕ
+                                </div>
+                                <div class="b_btn w_price">
+                                    Стоимость работы: <span>13 500 &#8381;</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="item">
+                        <div class="w_block clearfix">
+                            <div class="w_block_l">
+                                <div class="w_adr">
+                                    Адрес:<br>
+                                    Г. ВОЛГОГРАД, РЕПИНА, Д.15
+                                </div>
+                                <div class="w_client">
+                                    Клиент:<br>
+                                    КЛИМОВА АНТОНИНА НИКОЛАЕВНА
+                                </div>
+                                <p>
+                                    Произведен монтаж оконных конструкций для остекления лоджии длинной 3500 мм. Выбрана профильная система REHAU INTELIO 80 классического белого цвета с использованием немецкой фурнитуры ROTO. Установлен балконный блок с ламинацией под натуральную древесину, цвета «Орех». Внутренняя отделка балкона выполнена узкими панелями ПВХ белого цвета. 
+                                </p>
+                            </div>
+                            
+                            <div class="w_block_r">
+                                <img src="/img/w2.jpg">
+                                <div class="w_msg1">
+                                    ОТДЕЛКА И ОСТЕКЛЕНИЕ ЛОДЖИИ
+                                </div>
+                                <div class="b_btn w_price">
+                                    Стоимость работы: <span>42 500 &#8381;</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>   
+
+
+
+
+
+
+
+
+                    <div class="item">
+                        <div class="w_block clearfix">
+                            <div class="w_block_l">
+                                <div class="w_adr">
+                                    Адрес:<br>
+                                    ВОЛГОГРАДСКАЯ ОБЛ., СРЕДНЕАХТУБИНСКИЙ РАЙОН
+                                </div>
+                                <div class="w_client">
+                                    Клиент:<br>
+                                    МИЛОВСКАЯ ЛЮБОВЬ АЛЕКСАНДРОВНА
+                                </div>
+                                <p>
+                                    В деревянный дом были установлены 8 окон. Выпил проемов произведен сотрудниками в соответствии с утвержденным техническим планом. Пластиковые окна изготовленны из профильной системы VEKA EUROLINE с ламинацией цветом «Венге».
+                                </p>
+                            </div>
+                            
+                            <div class="w_block_r">
+                                <img src="/img/w3.jpg">
+                                <div class="w_msg1">
+                                    УСТАНОВКА ОКОН В ЗАГОРОДНЫЙ ДОМ
+                                </div>
+                                <div class="b_btn w_price">
+                                    Стоимость работы: <span>73 190 &#8381;</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>   
+
+
+
+
+
+
+  
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  $( function() {
+    $( "#tabs" ).tabs({
+        active: 1
+      });
+  } );
+  </script>
+<div class="section links2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/balkony.html" class="block_links2 b1">
+                    Остекление балконов                    
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/otdelka.html" class="block_links2 b2">
+                    Отделка балконов
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/dacha.html" class="block_links2 b3">
+                    Окна<br>для дачи
+                </a>
+		
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section form_price clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="padding: 0px;">
+                <div class="fp_block">
+                    <div class="hh">
+                        <h1>Узнайте цену своих окон!<br>Прямо сейчас!</h1>
+                    </div>
+                    <div class="line1">
+                        И получите бесплатную консультацию
+                    </div>
+                    <div class="ramka2 clearfix">
+                        <div class="fp_img"></div>
+                    <form name="form-2">
+                        <input type="tel" class="tel_mask" name="tell" placeholder="Телефон">
+                        <button class="feedback b_btn price_send">Отправить заявку!</button>
+                    </form>
+                    </div>
+                    <div class="line2">
+                        Или позвоните по телефону:<br>
+                        <span>+7 (8442) 96-65-81</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="/">Окна</a></li>
+                    <li><a href="/balkony.html">Балконы</a></li>
+                    <li><a href="/otdelka.html">Отделка</a></li>
+                    <li><a href="/dacha.html">Окна для дачи</a></li>
+                    <li><a href="/posts.html">Полезное</a></li>
+                    <li><a href="/vakansii.html">Вакансии</a></li>
+                    <li><a href="/contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="footer_line">  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ffl">   
+                <img src="/img/f_left.png" style="padding-top: 10px;padding-bottom: 20px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Обработчик форм заявок -->
+<link rel="stylesheet" type="text/css" href="/feedback/css/jquery.arcticmodal.css">
+<link rel="stylesheet" type="text/css" href="/feedback/css/jquery.jgrowl.css">
+<script src="/feedback/js/feedback.js"></script>
+<script src="/feedback/js/jquery.arcticmodal.js"></script>
+<script src="/feedback/js/jquery.jgrowl.js"></script>
+
+</body>
+</html>
